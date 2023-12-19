@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This task is focused on developing a GitHub user search functionality. The core task involves implementing a user search feature by username, with the search URL already provided in the `page.tsx` file in the `app/(home)` directory. Redux will be used to manage and store the search history, along with an option to clear this history.
+This task is focused on developing a GitHub user search functionality. The core task involves implementing a user search feature by username, with the search URL already provided in the `page.tsx` file in the `app/(routes)/(home)` directory. Redux will be used to store the search history, along with an option to clear this history. Use the `page.tsx` file in the `app/(routes)/history` directory. All necessary dependencies are already added in `package.json`.
 
 ## Getting Started
 
