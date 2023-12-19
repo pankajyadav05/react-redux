@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitHub User Search App
+
+## Project Overview
+
+This task is focused on developing a GitHub user search functionality. The core task involves implementing a user search feature by username, with the search URL already provided in the `page.tsx` file in the `app/(home)` directory. Redux will be used to manage and store the search history, along with an option to clear this history.
 
 ## Getting Started
 
-First, run the development server:
+### Running the Development Server
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Start the Server:** Begin by running the development server.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Viewing the App:** Access the application by navigating to [http://localhost:3000](http://localhost:3000) in your web browser. You should see the application's landing page.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Editing the App:** Begin development by editing the `app/(routes)/(home)/page.tsx` and `app/(routes)/history/page.tsx` files. The page automatically updates as you make changes.
 
-## Learn More
+## Task Details
 
-To learn more about Next.js, take a look at the following resources:
+### Implementation Requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **GitHub User Search**: Implement a feature to search for GitHub users by username. The URL for this search functionality is located in the `app/(routes)/(home)/page.tsx` file.
+- **Redux Integration**: Utilize Redux for managing and storing the search history.
+- **Search History Display**: Implement a feature to show search history. The URL for this is located in the `app/(routes)/history/page.tsx` file.
+- **Search History Management**: Include an option within above history UI to clear the search history.
